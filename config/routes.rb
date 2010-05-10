@@ -8,8 +8,11 @@ FbauthExample::Application.routes.draw do |map|
   end
   
   resources :selections
-  
+  resources :pictures
   resource :search , :controller => 'search'
+
+
+  root  :to => 'oauth#start'
   
   # The priority is based upon order of creation:
   # first created -> highest priority.

@@ -1,6 +1,6 @@
 class SearchController < ApplicationController
   
-  def index
+  def show
   end
   
   def create
