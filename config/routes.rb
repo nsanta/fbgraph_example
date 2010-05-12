@@ -10,7 +10,7 @@ FbauthExample::Application.routes.draw do |map|
   resources :selections
   resources :pictures
   resource :search , :controller => 'search'
-
+  resources :publish_feeds
 
   root  :to => 'oauth#start'
   
